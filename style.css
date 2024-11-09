@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    background-color: rgb(73, 5, 5);
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    width: 500px;
+    animation: heartbeat 5s linear infinite;
+}
+@keyframes heartbeat {
+    0%{
+    opacity: 1;
+    transform: scale(.5);
+    }
+
+    5%{transform: scale(.6);}
+      8%{transform: scale(.65);}
+    10%{transform: scale(.71);}
+    11%{transform: scale(.68);}
+    13%{transform: scale(.65);}
+    13%{transform: scale(.60);}
+    14%{transform: scale(.55);}
+    15%{transform: scale(.5);}
+    20%{transform: scale(.5);}
+    25%{transform: scale(.6);}
+    28%{transform: scale(.65);}
+    30%{transform: scale(.71);}
+    31%{transform: scale(.68);}
+    32%{transform: scale(.65);}
+    33%{transform: scale(.60);}
+    34%{transform: scale(.55);}
+    35%{transform: scale(.5);}
+    40%{transform: scale(.5);}
+    45%{transform: scale(.6);}
+    48%{transform: scale(.65);}
+    50%{transform: scale(.71);}
+    51%{transform: scale(.68);}
+    52%{transform: scale(.65);}
+    53%{transform: scale(.60);}
+    54%{transform: scale(.55);}
+    55%{transform: scale(.5);}
+    60%{transform: scale(.5);}
+    65%{transform: scale(.6);}
+    68%{transform: scale(.65);}
+    70%{transform: scale(.71);}
+    71%{transform: scale(.68);}
+    72%{transform: scale(.65);}
+    73%{transform: scale(.60);}
+    74%{transform: scale(.55);}
+    75%{transform: scale(.5);}
+    80%{transform: scale(.5);}
+    85%{transform: scale(.6);}
+    88%{transform: scale(.65);}
+    90%{transform: scale(.71);}
+    91%{transform: scale(.68);}
+    92%{transform: scale(.65);}
+    93%{transform: scale(.60);}
+    94%{transform: scale(.55);}
+    95%{transform: scale(.5);}
+    98%{transform: scale(.5);}
+    100%{transform: scale(.55);}
+}
