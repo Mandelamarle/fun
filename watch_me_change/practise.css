@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* This class if for the Subscribe button
+.css-button{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: 500;
+}
+.css-background{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  padding: 15px 20px;
+  font-size: 18px;
+  border-radius: 50px;
+  font-weight: 500;
+  background-color: #000;
+  color: #fff;
+}
+End of the Classes */
+.css-center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+p{
+  margin-bottom: 15px;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+}
+button{
+  padding: 10px 15px;
+  border: none;
+  border-radius: 50px;
+  font-size: 18px;
+}
